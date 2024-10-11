@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div>
-      <nav>
-        <ul>
+      <!--Navbar du portfolio -->
+      <nav class="navbar">
+        <ul class="navbar-list">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#work">Work</a></li>
@@ -16,6 +18,7 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <!--Section Home-->
       <section id="home">
         <h1>Welcome to my portfolio</h1>
         <h4>Welcome to my home Page</h4>
@@ -36,6 +39,7 @@
           Tenetur, id!
         </p>
       </section>
+      <!--Section About-->
       <section id="about">
         <h1>About me</h1>
         <h4>This is my image</h4>
@@ -44,14 +48,14 @@
       <section id="work">
         <h1>Work</h1>
         <ol>
-          <li>Project 1 </li>
-          <li> Project 2 </li>
+          <li>Project 1</li>
+          <li>Project 2</li>
         </ol>
-       
       </section>
+      <!--Section Resume-->
       <section id="resume">
         <h1>Resume</h1>
-        <h4>This is my Resume </h4>
+        <h4>This is my Resume</h4>
         <table>
           <tr>
             <th>Fonction</th>
@@ -62,21 +66,20 @@
             <th>HTML, CSS, React, Js, node</th>
           </tr>
         </table>
-      
       </section>
       <section id="contact">
         <h1>Contact</h1>
         <form>
           <label>Nom: </label>
-          <input type="text"/>
+          <input type="text" />
           <label>Adresse mail: </label>
-          <input type="mail"/>
+          <input type="mail" />
           <label>Number: </label>
-          <input type="number"/>
+          <input type="number" />
         </form>
       </section>
     </div>
   </body>
-  <br>
-  <footer> Call me for an interview</footer>
+  <br />
+  <footer>Call me for an interview</footer>
 </html>
